@@ -1,0 +1,120 @@
+/* Navbar container */
+.navbar {
+  position: fixed;
+  top: 0;
+  margin-bottom: 20px;
+  width: 100%;
+  z-index: 50;
+  transition: all 0.3s ease;
+  background: transparent;
+}
+
+.navbar.scrolled {
+  background: rgba(0, 0, 0, 0.95);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid #1f2937; /* border-gray-800 */
+}
+
+/* Inner container */
+.navbar-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.navbar-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem; /* 16 in tailwind ~ 4rem */
+}
+
+/* Logo */
+.navbar-logo h1 {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: white;
+  letter-spacing: 0.05em;
+}
+
+/* Desktop links */
+.navbar-links-desktop {
+  display: none;
+  gap: 2rem;
+}
+
+.navbar-link {
+  color: #d1d5db; /* gray-300 */
+  background: transparent;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  border-radius: 9999px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.navbar-link:hover {
+  color: white;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* Mobile menu button */
+.navbar-menu-mobile-button {
+  display: flex;
+}
+
+.menu-btn {
+  color: #9ca3af; /* gray-400 */
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.menu-btn:hover {
+  color: white;
+}
+
+/* Mobile menu */
+.navbar-menu-mobile {
+  display: flex;
+  flex-direction: column;
+  background: rgba(0, 0, 0, 0.98);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid #1f2937;
+}
+
+.navbar-menu-link {
+  color: #d1d5db; /* gray-300 */
+  background: transparent;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  width: 100%;
+  text-align: left;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.navbar-menu-link:hover {
+  color: white;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* Responsive */
+@media (min-width: 768px) {
+  .navbar-links-desktop {
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar-menu-mobile-button {
+    display: none;
+  }
+
+  .navbar-menu-mobile {
+    display: none;
+  }
+}
