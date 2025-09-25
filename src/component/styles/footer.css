@@ -1,7 +1,7 @@
 .footer {
   background: black;
   padding: 4rem 1rem;
-  border-top: 1px solid #1f2937; /* gray-800 */
+  border-top: 1px solid #1f2937; 
   color: white;
 }
 
@@ -30,7 +30,7 @@
 }
 
 .footer-about .footer-description {
-  color: #9ca3af; /* gray-400 */
+  color: #9ca3af; 
   font-weight: 300;
   margin-bottom: 1.5rem;
 }
@@ -43,8 +43,8 @@
 
 .social-icon {
   padding: 0.75rem;
-  background: #111827; /* gray-900 */
-  color: #9ca3af; /* gray-400 */
+  background: #111827;
+  color: #9ca3af; 
   border-radius: 50%;
   border: 1px solid #1f2937;
   display: flex;
@@ -61,7 +61,7 @@
   transform: scale(1.1);
 }
 
-/* Links Section */
+
 .footer-links h4,
 .footer-services h4 {
   font-weight: 700;
@@ -90,14 +90,13 @@
   color: white;
 }
 
-/* Services Section */
+
 .footer-services li {
   color: #9ca3af;
   font-weight: 300;
   padding: 0.25rem 0;
 }
 
-/* Bottom Section */
 .footer-bottom {
   border-top: 1px solid #1f2937;
   margin-top: 4rem;
@@ -115,5 +114,5 @@
 }
 
 .heart-icon {
-  color: #ef4444; /* red-500 */
+  color: #ef4444;
 }

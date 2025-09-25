@@ -1,7 +1,7 @@
 import React from "react";
 import { Github, Linkedin, Mail, ArrowDown, Code, Globe, Laptop,FileDown } from "lucide-react";
 import "../styles/hero.css";
-import Logo from "./Logo"; // make sure Logo.jsx exists
+import Logo from "./Logo"; 
 
 const Hero = () => {
   const scrollToAbout = () => {

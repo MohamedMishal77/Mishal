@@ -167,7 +167,7 @@
   outline: none;
 }
 .scroll-btn:focus {
-  outline: none; /* also ensure keyboard focus doesn't show */
+  outline: none; 
 }
 @keyframes bounce {
   0%, 100% {
@@ -177,30 +177,25 @@
     transform: translate(-50%, -10px);
   }
 }
-/* --- existing styles remain unchanged --- */
+
 
 .hero-actions-logo-wrapper {
   display: flex;
-  flex-direction: column; /* stack vertically */
-  align-items: center;    /* center horizontally */
-  gap: 2rem;              /* space between buttons and logo */
-  margin-top: 2rem;       /* optional spacing from subtitle */
+  flex-direction: column; 
+  align-items: center;    
+  gap: 2rem;              
+  margin-top: 2rem;       
 }
 
-/* Optional: logo styling */
+
 .hero-logo img {
-  width: 100px; /* adjust as needed */
+  width: 100px; 
   height: auto;
 }
 
-/* --- rest of your existing hero.css code remains unchanged --- */
-/* --- Existing Hero CSS --- */
-/* ... your current styles ... */
-
-/* Responsive adjustments for very small screens (<400px) */
 @media (max-width: 400px) {
   .hero-title {
-    font-size: 2.5rem; /* reduce large heading */
+    font-size: 2.5rem; 
     line-height: 1.1;
   }
 
@@ -210,7 +205,7 @@
   }
 
   .hero-subtitle {
-    font-size: 0.98rem; /* smaller paragraph */
+    font-size: 0.98rem; 
     padding: 0 0.5rem;
   }
 
@@ -247,7 +242,7 @@
     transform: translateX(-50%);
   }
 
-  /* Optional: adjust logo if it overflows */
+ 
   .hero-actions-logo-wrapper {
     flex-direction: column;
     gap: 2.5rem;

@@ -22,7 +22,7 @@
 }
 
 .contact-header p {
-  color: #9ca3af; /* gray-400 */
+  color: #9ca3af; 
   font-weight: 300;
   max-width: 768px;
   margin: 0 auto;
@@ -35,17 +35,17 @@
 }
 
 .contact-card {
-  background: #111827; /* gray-900 */
+  background: #111827;
   border-radius: 2rem;
   padding: 3rem;
-  border: 1px solid #1f2937; /* gray-800 */
+  border: 1px solid #1f2937; 
   text-align: center;
 }
 
 .contact-icon {
   width: 5rem;
   height: 5rem;
-  background: linear-gradient(135deg, #3b82f6, #8b5cf6); /* from-blue-500 to-purple-600 */
+  background: linear-gradient(135deg, #3b82f6, #8b5cf6);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -94,7 +94,7 @@
 
 .contact-email:hover {
   transform: scale(1.05);
-  background: #f3f4f6; /* gray-100 */
+  background: #f3f4f6; 
 }
 
 .arrow-icon {
@@ -112,9 +112,9 @@
 
 .social-icon {
   padding: 1rem;
-  background: #1f2937; /* gray-800 */
+  background: #1f2937; 
   border-radius: 50%;
-  border: 1px solid #374151; /* gray-700 */
+  border: 1px solid #374151; 
   color: white;
   display: flex;
   align-items: center;
@@ -124,17 +124,17 @@
 }
 
 .social-icon:hover {
-  background: #374151; /* gray-700 */
-  border-color: #4b5563; /* gray-600 */
+  background: #374151; 
+  border-color: #4b5563; 
   transform: scale(1.1);
 }
 
-/* Contact meta section */
+
 .contact-meta {
   display: grid;
   grid-template-columns: 1fr;
   gap: 1.5rem;
-  border-top: 1px solid #1f2937; /* gray-800 */
+  border-top: 1px solid #1f2937; 
   padding-top: 2rem;
 }
 

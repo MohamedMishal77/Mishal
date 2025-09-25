@@ -23,7 +23,7 @@ const About = () => {
         </div>
 
         <div className="about-grid">
-          {/* Left side - Journey */}
+          
           <div className="about-journey">
             <h3>My Journey</h3>
             <p>
@@ -57,7 +57,7 @@ const About = () => {
             </div>
           </div>
 
-          {/* Right side - Skills */}
+         
           <div className="skills-grid">
             {skills.map(({ name, icon: Icon, description }) => (
               <div key={name} className="skill-card">

@@ -21,7 +21,7 @@
 }
 
 .projects-header p {
-  color: #9ca3af; /* gray-400 */
+  color: #9ca3af;
   font-weight: 300;
   max-width: 768px;
   margin: 0 auto;
@@ -46,10 +46,10 @@
 }
 
 .project-card {
-  background: #111827; /* gray-900 */
+  background: #111827; 
   border-radius: 1rem;
   overflow: hidden;
-  border: 1px solid #1f2937; /* gray-800 */
+  border: 1px solid #1f2937; 
   box-shadow: 0 10px 15px rgba(0,0,0,0.5);
   transition: all 0.3s ease;
   cursor: pointer;
@@ -58,7 +58,7 @@
 .project-card:hover {
   transform: scale(1.05);
   box-shadow: 0 15px 25px rgba(0,0,0,0.6);
-  border-color: #4b5563; /* gray-600 */
+  border-color: #4b5563; 
 }
 
 .project-image-container {
@@ -112,10 +112,10 @@
   padding: 0.25rem 0.75rem;
   font-size: 0.75rem;
   font-weight: 500;
-  color: #60a5fa; /* blue-400 */
+  color: #60a5fa; 
   background: black;
   border-radius: 9999px;
-  border: 1px solid #374151; /* gray-700 */
+  border: 1px solid #374151;
 }
 
 .project-links {
@@ -137,7 +137,7 @@
 }
 
 .project-link.live:hover {
-  color: #3b82f6; /* blue-300 */
+  color: #3b82f6;
 }
 
 .project-link.code {
